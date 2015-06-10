@@ -1,3 +1,11 @@
+input {
+	margin: 5px;
+	padding: 10px;
+	width: 400px;
+}
+
+
+
 header {
 
 	background: gray;
@@ -9,6 +17,17 @@ button{
 	color: white;
 	background: green;
 	border-radius: 10%;
+	width: 75px;
+	
+	height: 40px;
+}
+
+#buttonwrapper{
+	text-align: right;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
 }
 
 #cancel {
@@ -51,6 +70,7 @@ button{
 
 
 #my-list {
+	text-align: center;
 	background: gray;
 	max-width: 600px;
 	margin-left: auto;
@@ -61,4 +81,5 @@ section{
 	max-width: 600px;
 	margin-left: auto;
 	margin-right:auto;
+	text-align: center;
 }
